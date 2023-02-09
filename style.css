@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Banner Section */
+.banner-section {
+  background-image: url(./images/banner1.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: end;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 200px;
+}
+.banner-section-heading {
+  font-size: 3rem;
+  margin: 0px;
+}
+.banner-section-text {
+  font-size: 1rem;
+  color: rgb(44, 40, 40);
+}
+.contact-me-button {
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 1rem 1.8rem;
+  cursor: pointer;
+}
+/*  */
