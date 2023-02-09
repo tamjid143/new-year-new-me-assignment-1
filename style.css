@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 /* Banner Section */
 .banner-section {
@@ -11,7 +13,8 @@ body {
   display: flex;
   justify-content: end;
   align-items: center;
-  padding: 200px;
+  padding: 100px 200px 200px 200px;
+  margin-bottom: 100px;
 }
 .banner-section-heading {
   font-size: 3rem;
@@ -30,4 +33,25 @@ body {
   padding: 1rem 1.8rem;
   cursor: pointer;
 }
-/*  */
+/* Failure Section */
+.failure-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.failure-section-img > img {
+  width: 80%;
+}
+.failure-section-text > ul {
+  padding-inline-start: 0px;
+}
+.failure-section-text > ul > li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.checkmark {
+  height: 20px;
+}
+/* My Plan Section */
